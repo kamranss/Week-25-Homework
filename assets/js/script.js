@@ -8,3 +8,13 @@ console.log(arr);
 
 
 
+// Reversing string
+
+let word = "Salam"
+
+function reverseWord(word){
+    let newword = word.split("").reverse().join("");
+    return newword;
+}
+
+console.log(reverseWord(word));
